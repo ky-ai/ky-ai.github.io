@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+ <div class="container"></div>
+    <div class="nav-wrapper">
+        <div class="left-side">
+            <div class="nav-link-wrapper active-nav-link">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="about.html">about</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="https://google.com">Google</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="contactus.html">Contact US</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="brand">
+                <div class="Name">
+                Koray
+                </div>
+            </div>  
+        </div>
+        
+    </div>
+    <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div>
+            
+             <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div> <div class="portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Images/9141190.jpeg)">
+
+                </div>
+                <div class="img-text-wrapper">
+                   <div class="logo-wrapepr">
+                       <img src="Images/Taris Logo.png">
+                   </div> 
+                   <div class="subtitle">
+
+                    Taris Head Shot
+
+                   </div>
+
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script>
+
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem =>{
+        portfolioItem.addEventListener('mouseover',()=>{
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+    
+        portfolioItem.addEventListener('mouseout',()=>{
+            portfolioItem.childNodes[1].classList.remove('img-darken')
+        })
+    })  
+</script>
+
+</html>
+
